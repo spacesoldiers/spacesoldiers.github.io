@@ -84,7 +84,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="javascript," />
 
 
 
@@ -100,13 +100,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title">
-<meta property="og:url" content="http://yoursite.com/tags/javascript/index.html">
+<meta name="description" content="在js中代码的技巧，应该来说比其他语言更加有意思，因为它的灵活性太大了，其中最典型的就是继承，js中继承的实现方式有很多种，今天就来介绍几种简单的继承。 原型式继承：这种继承方式比较好理解，原型有的，实例就有。原型继承也就是在原型中添加成员，实例对象就可以直接使用该成员，即实现了原型继承，重点就变成了怎么给原型添加成员，常用方式有两种  利用对象的动态特性给原型添加成员 1234Person.pr">
+<meta name="keywords" content="javascript">
+<meta property="og:type" content="article">
+<meta property="og:title" content="javascript中的继承">
+<meta property="og:url" content="http://yoursite.com/2015/05/23/javascript中的继承/index.html">
 <meta property="og:site_name">
+<meta property="og:description" content="在js中代码的技巧，应该来说比其他语言更加有意思，因为它的灵活性太大了，其中最典型的就是继承，js中继承的实现方式有很多种，今天就来介绍几种简单的继承。 原型式继承：这种继承方式比较好理解，原型有的，实例就有。原型继承也就是在原型中添加成员，实例对象就可以直接使用该成员，即实现了原型继承，重点就变成了怎么给原型添加成员，常用方式有两种  利用对象的动态特性给原型添加成员 1234Person.pr">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-08-02T09:59:24.389Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title">
+<meta name="twitter:title" content="javascript中的继承">
+<meta name="twitter:description" content="在js中代码的技巧，应该来说比其他语言更加有意思，因为它的灵活性太大了，其中最典型的就是继承，js中继承的实现方式有很多种，今天就来介绍几种简单的继承。 原型式继承：这种继承方式比较好理解，原型有的，实例就有。原型继承也就是在原型中添加成员，实例对象就可以直接使用该成员，即实现了原型继承，重点就变成了怎么给原型添加成员，常用方式有两种  利用对象的动态特性给原型添加成员 1234Person.pr">
 
 
 
@@ -134,13 +139,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/javascript/"/>
+  <link rel="canonical" href="http://yoursite.com/2015/05/23/javascript中的继承/"/>
 
 
 
 
 
-  <title>标签: javascript | </title>
+  <title>javascript中的继承 | </title>
   
 
 
@@ -185,7 +190,7 @@
     
   
 
-  <div class="container sidebar-position-left  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -313,156 +318,191 @@
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-collapse">
-    <div class="collection-title">
-      <h1>javascript<small>标签</small>
-      </h1>
-    </div>
-
+  <div id="posts" class="posts-expand">
     
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2016/07/25/javascript-垃圾回收机制/" itemprop="url">
-              
-                <span itemprop="name">javascript垃圾回收机制(GC)</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-07-25T19:15:30+08:00"
-              content="2016-07-25" >
-          07-25
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2015/08/19/javascript-原型原型链/" itemprop="url">
-              
-                <span itemprop="name">javascript原型和原型链</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-08-19T20:15:39+08:00"
-              content="2015-08-19" >
-          08-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2015/05/23/javascript中的继承/" itemprop="url">
-              
-                <span itemprop="name">javascript中的继承</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-05-23T19:39:20+08:00"
-              content="2015-05-23" >
-          05-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2015/05/12/ES5新增数组方法/" itemprop="url">
-              
-                <span itemprop="name">ES5新增数组方法</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-05-12T21:02:23+08:00"
-              content="2015-05-12" >
-          05-12
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-      
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2015/05/10/javascript面向对象/" itemprop="url">
-              
-                <span itemprop="name">javascript面向对象</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2015-05-10T22:43:16+08:00"
-              content="2015-05-10" >
-          05-10
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-    
-  </div>
 
   
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2015/05/23/javascript中的继承/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="SpaceS">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">javascript中的继承</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-23T19:39:20+08:00">
+                2015-05-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>在js中代码的技巧，应该来说比其他语言更加有意思，因为它的灵活性太大了，其中最典型的就是继承，js中继承的实现方式有很多种，今天就来介绍几种简单的继承。</p>
+<h4 id="原型式继承："><a href="#原型式继承：" class="headerlink" title="原型式继承："></a>原型式继承：</h4><p>这种继承方式比较好理解，原型有的，实例就有。<br>原型继承也就是在原型中添加成员，实例对象就可以直接使用该成员，即实现了原型继承，重点就变成了怎么给原型添加成员，常用方式有两种</p>
+<ul>
+<li><p>利用对象的动态特性给原型添加成员</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Person.prototype.sayHello = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;;</div><div class="line">Person.prototype.run = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;;</div><div class="line">Person.prototype.eat = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;;</div><div class="line">Person.prototype.walk = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;;</div></pre></td></tr></table></figure>
+</li>
+<li><p>直接替换原型对象</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">Person.prototype = &#123;</div><div class="line">  <span class="attr">constructor</span>: Person,</div><div class="line">  <span class="attr">sayHello</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;,</div><div class="line">  <span class="attr">run</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;,</div><div class="line">  <span class="attr">eat</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;,</div><div class="line">  <span class="attr">walk</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>注意：这个方法实际上是更换了原型对象，继承关系发生了改变<br>例如：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params"></span>) </span>&#123;&#125;</div><div class="line"><span class="keyword">var</span> p1 = <span class="keyword">new</span> Person();</div><div class="line"><span class="comment">//继承关系：p1--&gt;原来的原型(Person.proto)--&gt;Object.prototype--&gt;null</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//替换原型对象</span></div><div class="line">Person.prototype = &#123;</div><div class="line">  <span class="attr">constructor</span>: Person,</div><div class="line">  <span class="attr">sayHi</span>: <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;&#125;</div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> p2 = <span class="keyword">new</span> Person();</div><div class="line"><span class="comment">//继承关系：p2--&gt;新的原型(含有sayHi方法的原型)--&gt;Object.prototype--&gt;null</span></div></pre></td></tr></table></figure>
+<h4 id="混入式继承"><a href="#混入式继承" class="headerlink" title="混入式继承"></a>混入式继承</h4><p>这种方式是比较有争议的一种继承，是最不像继承的继承，它的原理是将对象a中的每一个成员加到对象b中，那么对象b就继承自对象a，代码实现如下<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">extend</span>(<span class="params"> dest, objs </span>) </span>&#123;</div><div class="line">  <span class="keyword">for</span> ( <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; objs.length; i++ ) &#123;</div><div class="line">    <span class="keyword">for</span> ( <span class="keyword">var</span> k <span class="keyword">in</span> objs[ i ] ) &#123;</div><div class="line">      <span class="keyword">if</span> ( objs[ i ].hasOwnProperty( k ) ) &#123;</div><div class="line">        dest[ k ] = objs[ i ][ k ];</div><div class="line">      &#125;</div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">//该代码有多种变体</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">extend</span>(<span class="params"> obj </span>) </span>&#123;</div><div class="line">  <span class="keyword">for</span> ( <span class="keyword">var</span> k <span class="keyword">in</span> obj ) &#123;</div><div class="line">    <span class="keyword">this</span>[ k ] = obj[ k ];</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>通过代码，我们可以看出，它就是一个copy的过程，将一个对象中的成员复制给另一个对象，从而达到继承的目的。</p>
+<h4 id="组合继承"><a href="#组合继承" class="headerlink" title="组合继承"></a>组合继承</h4><p>组合继承就是把多个继承方案混合到一起使用<br>以原型继承与混入继承为例，一般书写构造函数的时候都是这么实现的:<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//1. 写一个构造函数</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Person</span>(<span class="params">name,age,gender</span>)</span>&#123;</div><div class="line">    <span class="keyword">this</span>.name = name;</div><div class="line">    <span class="keyword">this</span>.age = age;</div><div class="line">    <span class="keyword">this</span>.gender = gender;</div><div class="line">&#125;</div><div class="line"><span class="comment">//2. 准备一个原型</span></div><div class="line">Person.fn = Person.prototype;</div><div class="line"><span class="comment">//3. 准备一个混入方法</span></div><div class="line">Person.fn.extend = <span class="function"><span class="keyword">function</span>(<span class="params">obj</span>)</span>&#123;</div><div class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> key <span class="keyword">in</span> obj) &#123;</div><div class="line">        <span class="keyword">if</span> (obj.hasOwnProperty(key)) &#123;</div><div class="line">            <span class="keyword">this</span>[key] = obj[key];</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">//4. 在原型中混入多个成员</span></div><div class="line">Person.fn.extend(&#123;</div><div class="line">    <span class="attr">sayHello</span>:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="built_in">console</span>.log(<span class="string">'你好，我是'</span>+<span class="keyword">this</span>.name+<span class="string">'今年'</span>+<span class="keyword">this</span>.age+<span class="string">'岁，我是'</span>+<span class="keyword">this</span>.gender+<span class="string">'生'</span>);</div><div class="line">    &#125;,</div><div class="line">    <span class="attr">sayHi</span>:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="built_in">console</span>.log(<span class="keyword">this</span>.name+<span class="keyword">this</span>.age+<span class="keyword">this</span>.gender);</div><div class="line">    &#125;,</div><div class="line">    <span class="attr">eat</span>:<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">        <span class="built_in">console</span>.log(<span class="string">'今天吃大餐'</span>);</div><div class="line">    &#125;</div><div class="line">&#125;)</div><div class="line"><span class="comment">//5. 使用构造函数创建对象，对象就有多个方法了</span></div><div class="line"><span class="keyword">var</span> p = <span class="keyword">new</span> Person(<span class="string">'jack'</span>,<span class="number">18</span>,<span class="string">'女'</span>);</div><div class="line">p.sayHello();</div><div class="line">p.eat();</div></pre></td></tr></table></figure></p>
+<h4 id="标准继承"><a href="#标准继承" class="headerlink" title="标准继承"></a>标准继承</h4><p>语法：Object.create(对象)<br>返回一个新对象，将create方法参数中的对象作为原型，例：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> p = &#123;</div><div class="line">	<span class="attr">name</span>:<span class="string">'jim'</span></div><div class="line">&#125;</div><div class="line"><span class="keyword">var</span> obj = <span class="built_in">Object</span>.create(p);</div><div class="line"><span class="comment">//继承关系：obj--&gt;p--&gt;Object.prototype--&gt;null</span></div></pre></td></tr></table></figure></p>
+<p>早期的js并没有提供继承的语法，这种继承的方式是道格拉斯(js语言精粹的作者)在ES3时代给出的实现继承的方法，他给出了如下函数：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">object</span>(<span class="params">o</span>)</span>&#123;</div><div class="line">	<span class="function"><span class="keyword">function</span> <span class="title">F</span>(<span class="params"></span>)</span>&#123;&#125;</div><div class="line">	F.prototype = o;</div><div class="line">	<span class="keyword">return</span> <span class="keyword">new</span> F();</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>在object()函数内部，先创建了一个临时的构造函数，然后将传入的对象作为这个构造函数的原型，最后返回了这个临时类型的一个实例。从本质上讲，object()对传入其中的对象执行了一次浅复制。<br>ES5中将这个方式标准化了，新增了Object.create()方法，也就是所有支持ES5+的浏览器都含有Object.create()方法。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/javascript/" rel="tag"><i class="fa fa-tag"></i>javascript</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/05/12/ES5新增数组方法/" rel="next" title="ES5新增数组方法">
+                <i class="fa fa-chevron-left"></i> ES5新增数组方法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/08/19/javascript-原型原型链/" rel="prev" title="javascript原型和原型链">
+                javascript原型和原型链 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -470,6 +510,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -490,8 +534,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -553,6 +606,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#原型式继承："><span class="nav-number">1.</span> <span class="nav-text">原型式继承：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#混入式继承"><span class="nav-number">2.</span> <span class="nav-text">混入式继承</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#组合继承"><span class="nav-number">3.</span> <span class="nav-text">组合继承</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#标准继承"><span class="nav-number">4.</span> <span class="nav-text">标准继承</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -665,10 +734,10 @@
 
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
 
-  
+
 
   
 
