@@ -1678,7 +1678,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6263d7;
+  background: #55839a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2848,9 +2848,6 @@ a:hover {
   color: #fff;
   border-bottom-color: #fff;
 }
-.posts-expand .post-body ul li {
-  list-style: disc;
-}
 .site-author-name {
   color: #fff;
 }
@@ -2943,6 +2940,10 @@ p a {
 }
 .tag-cloud-tags a {
   color: #111 !important;
+}
+.pagination .page-number {
+  line-height: 25px;
+  border-top: none;
 }
 @media screen and (max-width: 991px) {
   #mymusic {
