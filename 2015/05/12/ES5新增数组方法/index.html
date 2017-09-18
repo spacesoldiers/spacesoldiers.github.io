@@ -82,7 +82,7 @@
 <meta property="og:site_name">
 <meta property="og:description" content="遍历方法forEach作用：遍历数组中的每一个元素，并且将数组的每一个元素作为参数传入到回调函数中，让回调函数来处理我们的数据。模拟forEach方法：我们对数组进行遍历，实际上对数组的处理有很多，但是所有的逻辑其实都包在for语句中间12345678910111213for ( var i = 0; i &amp;lt; arr.length; i++ ) &amp;#123;   // 只要是对数组进行操作,">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-02T03:52:07.459Z">
+<meta property="og:updated_time" content="2017-09-18T16:42:51.372Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ES5新增数组方法">
 <meta name="twitter:description" content="遍历方法forEach作用：遍历数组中的每一个元素，并且将数组的每一个元素作为参数传入到回调函数中，让回调函数来处理我们的数据。模拟forEach方法：我们对数组进行遍历，实际上对数组的处理有很多，但是所有的逻辑其实都包在for语句中间12345678910111213for ( var i = 0; i &amp;lt; arr.length; i++ ) &amp;#123;   // 只要是对数组进行操作,">
@@ -396,7 +396,7 @@
 <li>some表示这个数组中只要有一个满足规则就返回true。例：<br><code>arr.some( function ( v ) { return v &gt; 3; });</code><br>判断数组中有没有比3大的谁数字，只要有一个比3大就返回true。</li>
 <li>every 判断每一项是否满足要求，必须是的每一个都满足才会返回true，否则只要有一个不满足，就会停止遍历，返回 false。</li>
 </ul>
-<h4 id="reduce和reduceRight"><a href="#reduce和reduceRight" class="headerlink" title="reduce和reduceRight"></a>reduce和reduceRight</h4><p>reduce 从数组起始位开始遍历<br>reduceRight 从数组末尾开始遍历<br>这两个方法真不知道能有什么用</p>
+<h4 id="reduce和reduceRight"><a href="#reduce和reduceRight" class="headerlink" title="reduce和reduceRight"></a>reduce和reduceRight</h4><p>reduce 从数组起始位开始遍历<br>reduceRight 从数组末尾开始遍历</p>
 <p><strong>注：</strong>在这些数组遍历方法中，回调函数有第三个参数，方法一般也有第二个参数，回调函数的第三个参数是数组本身，方法的第二个参数用于描述回调函数中的this，回调函数中的this默认是指全局对象window，如果方法提供了第二个参数，那么this就是这个对象。</p>
 <h4 id="indexOf和lastIndexOf"><a href="#indexOf和lastIndexOf" class="headerlink" title="indexOf和lastIndexOf"></a>indexOf和lastIndexOf</h4><p>在ES3中，字符串就已经具备了这两个方法，作用是检索指定字符串值在字符串中首次出现的位置，如果没有返回-1.<br>而现在数组的这两个方法和字符串方法的功能一致，检索指定项在数组中首次出现的位置，没有返回-1。</p>
 
